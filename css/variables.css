@@ -4,6 +4,7 @@
     --color-container: #121212;
     --color-gray: #535353;
     --color-lightgray: #b3b3b3;
+    --value-container-radius: 8px;
 }
 
 @font-face {

@@ -5,8 +5,31 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "default";
+    color: white;
 }
 
 body {
     background-color: var(--color-black);
+    width: 100svw;
+    height: 100svh;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-gap: 8px;
+    padding: 8px;
+}
+
+.container {
+    background-color: var(--color-container);
+    border-radius: var(--value-container-radius);
+    padding: 12px 8px;
+}
+
+.containerTitle {
+    font-size: 32px;
+    font-family: 'bold';
 }
