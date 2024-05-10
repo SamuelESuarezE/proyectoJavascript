@@ -1,0 +1,17 @@
+:root{
+    --color-green: #1db954;
+    --color-black: #000;
+    --color-container: #121212;
+    --color-gray: #535353;
+    --color-lightgray: #b3b3b3;
+}
+
+@font-face {
+    font-family: "bold";
+    src: url(../storage/fonts/Gotham-Bold.otf);
+}
+
+@font-face {
+    font-family: "default";
+    src: url(../storage/fonts/GothamBook.ttf);
+}
