@@ -12,18 +12,16 @@
 <body>
     <main class="main">
         <section class="container" id="albums">
-            <h1 class="containerTitle">Discover<br>New albums</h1>
-            <article class="searchFigure">
-                <i class="bi bi-search"></i>
-
-                <input class="searchBar" type="text" name="..." id="..." placeholder="What do you want to play?">
-
-            </article>
+            <h1 class="containerTitle">Discover<br>New music</h1>
+            <search-bar></search-bar>
         </section>
-        <section class="container" id="currentTrack"></section>
+        <section class="container" id="currentTrack">
+            <current-track-frame uri="spotify:album:2kcJ3TxBhSwmki0QWFXUz8"></current-track-frame>
+            <search-bar></search-bar>
+        </section>
         <section class="container" id="tracks">
             <h1 class="containerTitle">Track list</h1>
-            <article class="searchByTrack"></article>
+            <search-bar></search-bar>
         </section>
     </main>
 </body>

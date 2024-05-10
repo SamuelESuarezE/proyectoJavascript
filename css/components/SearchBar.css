@@ -1,24 +1,40 @@
-.searchBar {
-    height: 28px;
-    border: 0;
-    color: #fff;
-    padding: 6px 36px;
-    width: 80%;
-    background-color: transparent;
-}
 
-.searchFigure {
-    position: relative;
-    border-radius: 500px;
-    background-color: #242424;
-    width: 100%;
-    height: 40px;
-    margin-block: 12px;
-    overflow: ellipsis;
-}
 
-.searchFigure i {
+/* ARTICLE */
+.searchFigure i{
+    color: #bbbbbb;
     position: absolute;
     top: 24px;
     left: 12px;
+}
+
+.searchFigure:hover > i{
+    color: white;
+}
+
+
+.searchFigure {
+    position: relative;
+    height: 28px;
+    width: 100%
+
+}
+
+/* INPUT TEXT */
+
+.searchBar {
+    width: calc(100% - 72px);
+    background-color: #242424;
+    border: 0;
+    border-radius: 500px;
+    color: #fff;
+    height: 100%;
+    padding: 6px 36px;
+    margin-block: 12px;
+    text-overflow: ellipsis;
+}
+
+.searchBar:hover {
+    box-shadow: 0px 0px 1.5px rgb(197, 197, 197);
+    background-color: #282828;
 }
