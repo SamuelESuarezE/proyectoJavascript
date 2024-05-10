@@ -26,10 +26,60 @@ main {
 .container {
     background-color: var(--color-container);
     border-radius: var(--value-container-radius);
-    padding: 12px 8px;
+    padding: 24px 24px;
 }
 
 .containerTitle {
-    font-size: 32px;
+    font-size: 40px;
     font-family: 'bold';
+}
+
+.containerTitle {
+    font-size: 35px;
+    font-family: 'bold';
+}
+
+.containerTitle2 {
+    font-size: 35px;
+    font-family: 'bold';
+}
+
+.searchBar {
+    width: 100%;
+    background-color: #242424;
+    border: 0;
+    border-radius: 500px;
+    color: #fff;
+    height: 40px;
+    padding: 6px 36px;
+    margin-block: 12px;
+    overflow: ellipsis;
+}
+
+.searchBar:hover {
+    box-shadow: 0px 0px 1.5px rgb(197, 197, 197);
+    background-color: #282828;
+}
+
+.searchBar:focus ~ i {
+    color: white;
+
+}
+
+.searchFigure i{
+    color: #bbbbbb;
+    position: absolute;
+    top: 24px;
+    left: 12px;
+}
+
+.searchFigure:hover > i{
+    color: white;
+}
+
+
+.searchFigure {
+    position: relative;
+    height: 28px;
+
 }

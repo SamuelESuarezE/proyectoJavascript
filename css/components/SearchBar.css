@@ -1,0 +1,24 @@
+.searchBar {
+    height: 28px;
+    border: 0;
+    color: #fff;
+    padding: 6px 36px;
+    width: 80%;
+    background-color: transparent;
+}
+
+.searchFigure {
+    position: relative;
+    border-radius: 500px;
+    background-color: #242424;
+    width: 100%;
+    height: 40px;
+    margin-block: 12px;
+    overflow: ellipsis;
+}
+
+.searchFigure i {
+    position: absolute;
+    top: 24px;
+    left: 12px;
+}
