@@ -6,7 +6,7 @@ export class CurrentTrack extends HTMLElement{
     }
     connectedCallback(){
         this.shadowRoot.innerHTML = /*html*/`
-        <iframe class="spotify-iframe" width="100%" height="93%" src="https://open.spotify.com/embed/album/${this.id}" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/${this.id}" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         `
     }
     static get observedAttributes(){

@@ -12,11 +12,23 @@ body {
     background-color: var(--color-black);
     width: 100svw;
     height: 100svh;
+    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    background: transparent;
+    border-radius: 20px;
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-green);
+    border-radius: 10px;
 }
 
 main {
     width: 100%;
-    height: 100%;
+    height: 100svh;
     display: grid;
     grid-template-columns: 1fr 1.5fr 1fr;
     grid-gap: 8px;
@@ -27,6 +39,13 @@ main {
     background-color: var(--color-container);
     border-radius: var(--value-container-radius);
     padding: 24px;
+    position: relative;
+}
+
+current-track-frame {
+    position: absolute;
+    width: calc(100% - 48px);
+    top: 30%;
 }
 
 .containerTitle {
@@ -43,3 +62,28 @@ main {
     font-size: 25px;
     font-family: 'bold';
 }
+
+#blankSpace {
+    height: 4.5%;
+}
+
+.albumContainer {
+    margin-top: 40px;
+    display: grid;
+    grid-auto-rows: 150px;
+    height: 770px;
+    grid-gap: 10px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.tracksContainer {
+    margin-top: 40px;
+    display: grid;
+    grid-auto-rows: 150px;
+    height: 810px;
+    grid-gap: 10px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
