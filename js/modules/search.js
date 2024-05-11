@@ -21,7 +21,30 @@ export const searchUniqueTrack = async(query) => {
 }
 
 export const searchTracks = async(query) => {
+    const url = `https://spotify23.p.rapidapi.com/search/?q=${query}&type=tracks&offset=0&limit=6&numberOfTopResults=0`;
+    const options = {
+        method: 'GET',
+        headers: {
+            'x-rapidapi-key': 'ea6cd4dd0bmsh8413380809d711bp1b1736jsn8db2d953d8ab',
+            'x-rapidapi-host': 'spotify23.p.rapidapi.com',
+            'Content-Type': 'application/json'
+        }
+    };
 
+    try {
+        const response = await fetch(url, options);
+        const result = await response.json();
+        let uris = []
+        console.log(result)
+
+        for (let track of result.tracks.items) {
+            uris.push(track.data.uri)
+        }
+
+        return uris
+    } catch (error) {
+        console.error(error);
+    }
 }
 
 export const searchAlbums = async(query) => {

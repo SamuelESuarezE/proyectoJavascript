@@ -1,66 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify</title>
-    <link rel="shortcut icon" href="./storage/img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link
+      rel="shortcut icon"
+      href="./storage/img/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <script type="module" src="./js/app.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <main class="main">
-        <section class="container" id="albums">
-            <h1 class="containerTitle">Discover<br>New albums</h1>
-            <search-bar></search-bar>
-            <article class="albumContainer">
-                <music-card uri="spotify:album:1tIioq32KjWlt5vvk5rhqX" id="1tIioq32KjWlt5vvk5rhqX"></music-card>
-                <music-card uri="spotify:album:7sHrPadM39466NY7DW3s4r" id="7sHrPadM39466NY7DW3s4r"></music-card>
-                <music-card uri="spotify:album:4J34iOivTttm8RL3dAjKTb" id="4J34iOivTttm8RL3dAjKTb"></music-card>
-                <music-card uri="spotify:album:5LKVRhKcPjWbvYP9s7udQW" id="5LKVRhKcPjWbvYP9s7udQW"></music-card>
-                <music-card uri="spotify:album:3ngv1koeaezy6Ez0V9Iul7" id="3ngv1koeaezy6Ez0V9Iul7"></music-card>
-                <music-card uri="spotify:album:2iRkylgiOXWCweWUSKmQJI" id="2iRkylgiOXWCweWUSKmQJI"></music-card>
-            </article>
-        </section>
-        <section class="container" id="currentTrack">
-            <h1 class="containerTitle" style="text-align: center;">Now playing</h1>
-            <search-bar></search-bar>
-            <div id="blankSpace"></div>
-            <current-track-frame uri="spotify:track:26w9NTiE9NGjW1ZvIOd1So"></current-track-frame>
-        </section>
-        <section class="container" id="tracks">
-            <h1 class="containerTitle2">Track list</h1>
-            <search-bar></search-bar>
-            <article class="tracksContainer">
-                <music-card uri="spotify:track:1Hs1uUl8o2VtDp1DABFq0O"></music-card>
-                <music-card uri="spotify:track:1Hs1uUl8o2VtDp1DABFq0O"></music-card>
-                <music-card uri="spotify:track:1Hs1uUl8o2VtDp1DABFq0O"></music-card>
-                <music-card uri="spotify:track:1Hs1uUl8o2VtDp1DABFq0O"></music-card>
-                <music-card uri="spotify:track:1Hs1uUl8o2VtDp1DABFq0O"></music-card>
-                <music-card uri="spotify:track:1Hs1uUl8o2VtDp1DABFq0O"></music-card>
-                <music-card uri="spotify:track:1Hs1uUl8o2VtDp1DABFq0O"></music-card>
-                <music-card uri="spotify:track:1Hs1uUl8o2VtDp1DABFq0O"></music-card>
-
-            </article>
-            
-
-        </section>
+      <section class="container" id="albums">
+        <h1 class="containerTitle">Discover<br />New albums</h1>
+        <search-bar></search-bar>
+        <article class="albumContainer">
+          <music-card
+            uri="spotify:album:1tIioq32KjWlt5vvk5rhqX"
+            id="1tIioq32KjWlt5vvk5rhqX"
+          ></music-card>
+          <music-card
+            uri="spotify:album:7sHrPadM39466NY7DW3s4r"
+            id="7sHrPadM39466NY7DW3s4r"
+          ></music-card>
+          <music-card
+            uri="spotify:album:4J34iOivTttm8RL3dAjKTb"
+            id="4J34iOivTttm8RL3dAjKTb"
+          ></music-card>
+          <music-card
+            uri="spotify:album:5LKVRhKcPjWbvYP9s7udQW"
+            id="5LKVRhKcPjWbvYP9s7udQW"
+          ></music-card>
+          <music-card
+            uri="spotify:album:3ngv1koeaezy6Ez0V9Iul7"
+            id="3ngv1koeaezy6Ez0V9Iul7"
+          ></music-card>
+          <music-card
+            uri="spotify:album:2iRkylgiOXWCweWUSKmQJI"
+            id="2iRkylgiOXWCweWUSKmQJI"
+          ></music-card>
+        </article>
+      </section>
+      <section class="container" id="currentTrack">
+        <h1 class="containerTitle" style="text-align: center">Now playing</h1>
+        <search-bar></search-bar>
+        <div id="blankSpace"></div>
+        <current-track-frame
+          uri="spotify:track:26w9NTiE9NGjW1ZvIOd1So"
+        ></current-track-frame>
+      </section>
+      <section class="container" id="tracks">
+        <h1 class="containerTitle2">Track list</h1>
+        <search-bar></search-bar>
+        <article class="tracksContainer">
+          <music-card uri="spotify:track:1Hs1uUl8o2VtDp1DABFq0O"></music-card>
+          <music-card uri="spotify:track:1Hs1uUl8o2VtDp1DABFq0O"></music-card>
+          <music-card uri="spotify:track:1Hs1uUl8o2VtDp1DABFq0O"></music-card>
+          <music-card uri="spotify:track:1Hs1uUl8o2VtDp1DABFq0O"></music-card>
+          <music-card uri="spotify:track:1Hs1uUl8o2VtDp1DABFq0O"></music-card>
+          <music-card uri="spotify:track:1Hs1uUl8o2VtDp1DABFq0O"></music-card>
+          <music-card uri="spotify:track:1Hs1uUl8o2VtDp1DABFq0O"></music-card>
+          <music-card uri="spotify:track:1Hs1uUl8o2VtDp1DABFq0O"></music-card>
+        </article>
+      </section>
     </main>
     <footer class="mobileMenu">
-        <a class="menuIcon" href="#albums">
-            <i class="bi bi-vinyl"></i>
- 
-        </a>
-        <a class="menuIcon" href="#currentTrack">
-           <i class="bi bi-headphones"></i>
-
-        </a>
-        <a class="menuIcon" href="#tracks">
-            <i class="bi bi-music-note-beamed"></i>
- 
-        </a>
-
+      <a class="menuIcon" href="#albums">
+        <i class="bi bi-vinyl"></i>
+      </a>
+      <a class="menuIcon" href="#currentTrack">
+        <i class="bi bi-headphones"></i>
+      </a>
+      <a class="menuIcon" href="#tracks">
+        <i class="bi bi-music-note-beamed"></i>
+      </a>
     </footer>
-</body>
+  </body>
 </html>
