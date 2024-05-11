@@ -97,8 +97,10 @@ current-track-frame {
     bottom: 0;
 }
 
-.mobileMenu button {
-    font-size:35px;
+.mobileMenu a {
+    display: flex;
+    align-items: center;
+    font-size:30px;
     background-color: transparent;
     border: none;
 
@@ -111,6 +113,8 @@ current-track-frame {
         width: 100vw;
         overflow-x: scroll;
         scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+
     }
 
     main::-webkit-scrollbar {
