@@ -21,6 +21,10 @@ export const searchUniqueTrack = async(query) => {
 }
 
 export const searchTracks = async(query) => {
+
+}
+
+export const searchAlbums = async(query) => {
     const url = `https://spotify23.p.rapidapi.com/search/?q=${query}&type=albums&offset=0&limit=6&numberOfTopResults=0`;
     const options = {
         method: 'GET',
@@ -34,26 +38,15 @@ export const searchTracks = async(query) => {
     try {
         const response = await fetch(url, options);
         const result = await response.json();
-        console.log(result);
+        let uris = []
+        console.log(result)
+
+        for (let album of result.albums.items) {
+            uris.push(album.data.uri)
+        }
+
+        return uris
     } catch (error) {
         console.error(error);
     }
-
-    let res = await (await fetch("http://localhost:5502/tracks")).json()
-    let dataSongs = []
-    res.items.forEach(item => {
-        dataSongs.push(item.data.uri)
-    })
-    console.log(dataSongs)
-    return dataSongs
-}
-
-export const searchAlbums = async(query) => {
-    let res = await (await fetch("http://localhost:5501/albums")).json()
-    let dataAlbums = []
-    res.items.forEach(item => {
-        dataAlbums.push(item.data.uri)
-    })
-    console.log(dataAlbums)
-    return dataAlbums
 }
