@@ -1,0 +1,501 @@
+{
+  "query": "justin",
+  "tracks": {
+    "totalCount": 835,
+    "items": [
+      {
+        "data": {
+          "uri": "spotify:track:6epn3r7S14KUqlReYr77hA",
+          "id": "6epn3r7S14KUqlReYr77hA",
+          "name": "Baby",
+          "albumOfTrack": {
+            "uri": "spotify:album:3BmcYMh0KYsimWL6p2gPa9",
+            "name": "My World 2.0",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02629dc9e2e3bc20bbd7d92e4a",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851629dc9e2e3bc20bbd7d92e4a",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273629dc9e2e3bc20bbd7d92e4a",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+
+            "id": "3BmcYMh0KYsimWL6p2gPa9",
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/album/3BmcYMh0KYsimWL6p2gPa9?si=yAzBJSBzQBWogiPz3A-CsQ"
+            }
+          },
+
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:1uNFoZAHBGtllmzznpCI3s",
+                "profile": {
+                  "name": "Justin Bieber"
+                }
+              },
+              {
+                "uri": "spotify:artist:3ipn9JLAPI5GUEo4y4jcoi",
+                "profile": {
+                  "name": "Ludacris"
+                }
+              }
+            ]
+          },
+
+          "contentRating": {
+            "label": "NONE"
+          },
+
+          "duration": {
+            "totalMilliseconds": 214240
+          },
+
+          "playability": {
+            "playable": true
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:track:6I3mqTwhRpn34SLVafSH7G",
+          "id": "6I3mqTwhRpn34SLVafSH7G",
+          "name": "Ghost",
+          "albumOfTrack": {
+            "uri": "spotify:album:5dGWwsZ9iB2Xc3UKR0gif2",
+            "name": "Justice",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02e6f407c7f3a0ec98845e4431",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851e6f407c7f3a0ec98845e4431",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273e6f407c7f3a0ec98845e4431",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+
+            "id": "5dGWwsZ9iB2Xc3UKR0gif2",
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/album/5dGWwsZ9iB2Xc3UKR0gif2?si=Rh9pY2GwSVip8kn8S2OfoQ"
+            }
+          },
+
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:1uNFoZAHBGtllmzznpCI3s",
+                "profile": {
+                  "name": "Justin Bieber"
+                }
+              }
+            ]
+          },
+
+          "contentRating": {
+            "label": "NONE"
+          },
+
+          "duration": {
+            "totalMilliseconds": 153190
+          },
+
+          "playability": {
+            "playable": true
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:track:4NeOWqHmlrGRuBvsLJC9rL",
+          "id": "4NeOWqHmlrGRuBvsLJC9rL",
+          "name": "My Love (feat. T.I.)",
+          "albumOfTrack": {
+            "uri": "spotify:album:0tcExuDWMQdBbwSpqN8Ku2",
+            "name": "FutureSex/LoveSounds Deluxe Edition",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02c68f26a3d34fbd0faed2b473",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851c68f26a3d34fbd0faed2b473",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273c68f26a3d34fbd0faed2b473",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+
+            "id": "0tcExuDWMQdBbwSpqN8Ku2",
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/album/0tcExuDWMQdBbwSpqN8Ku2?si=ObpF2UnBRkuHS1hBU8C3Iw"
+            }
+          },
+
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:31TPClRtHm23RisEBtV3X7",
+                "profile": {
+                  "name": "Justin Timberlake"
+                }
+              },
+              {
+                "uri": "spotify:artist:4OBJLual30L7gRl5UkeRcT",
+                "profile": {
+                  "name": "T.I."
+                }
+              }
+            ]
+          },
+
+          "contentRating": {
+            "label": "NONE"
+          },
+
+          "duration": {
+            "totalMilliseconds": 276160
+          },
+
+          "playability": {
+            "playable": true
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:track:52NGJPcLUzQq5w7uv4e5gf",
+          "id": "52NGJPcLUzQq5w7uv4e5gf",
+          "name": "Private Landing (feat. Justin Bieber & Future)",
+          "albumOfTrack": {
+            "uri": "spotify:album:26z5llzd194mcCZHADWd6k",
+            "name": "Love Sick",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02feeff698e6090e6b02f21ec0",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851feeff698e6090e6b02f21ec0",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273feeff698e6090e6b02f21ec0",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+
+            "id": "26z5llzd194mcCZHADWd6k",
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/album/26z5llzd194mcCZHADWd6k?si=ywsW2PvZRbGodWpJ4st34A"
+            }
+          },
+
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:4Gso3d4CscCijv0lmajZWs",
+                "profile": {
+                  "name": "Don Toliver"
+                }
+              },
+              {
+                "uri": "spotify:artist:1uNFoZAHBGtllmzznpCI3s",
+                "profile": {
+                  "name": "Justin Bieber"
+                }
+              },
+              {
+                "uri": "spotify:artist:1RyvyyTE3xzB2ZywiAwp0i",
+                "profile": {
+                  "name": "Future"
+                }
+              }
+            ]
+          },
+
+          "contentRating": {
+            "label": "EXPLICIT"
+          },
+
+          "duration": {
+            "totalMilliseconds": 238253
+          },
+
+          "playability": {
+            "playable": true
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:track:09CtPGIpYB4BrO8qb1RGsF",
+          "id": "09CtPGIpYB4BrO8qb1RGsF",
+          "name": "Sorry",
+          "albumOfTrack": {
+            "uri": "spotify:album:6Fr2rQkZ383FcMqFyT7yPr",
+            "name": "Purpose (Deluxe)",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02f46b9d202509a8f7384b90de",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851f46b9d202509a8f7384b90de",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273f46b9d202509a8f7384b90de",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+
+            "id": "6Fr2rQkZ383FcMqFyT7yPr",
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/album/6Fr2rQkZ383FcMqFyT7yPr?si=xiwMz7xlR6CmsHqZyuFBHg"
+            }
+          },
+
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:1uNFoZAHBGtllmzznpCI3s",
+                "profile": {
+                  "name": "Justin Bieber"
+                }
+              }
+            ]
+          },
+
+          "contentRating": {
+            "label": "NONE"
+          },
+
+          "duration": {
+            "totalMilliseconds": 200786
+          },
+
+          "playability": {
+            "playable": true
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:track:1AWQoqb9bSvzTjaLralEkT",
+          "id": "1AWQoqb9bSvzTjaLralEkT",
+          "name": "Rock Your Body",
+          "albumOfTrack": {
+            "uri": "spotify:album:6QPkyl04rXwTGlGlcYaRoW",
+            "name": "Justified",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02346a5742374ab4cf9ed32dee",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851346a5742374ab4cf9ed32dee",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273346a5742374ab4cf9ed32dee",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+
+            "id": "6QPkyl04rXwTGlGlcYaRoW",
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/album/6QPkyl04rXwTGlGlcYaRoW?si=Qn5tCZIhRNudY1ObdGX_fg"
+            }
+          },
+
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:31TPClRtHm23RisEBtV3X7",
+                "profile": {
+                  "name": "Justin Timberlake"
+                }
+              }
+            ]
+          },
+
+          "contentRating": {
+            "label": "NONE"
+          },
+
+          "duration": {
+            "totalMilliseconds": 267266
+          },
+
+          "playability": {
+            "playable": true
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:track:50kpGaPAhYJ3sGmk6vplg0",
+          "id": "50kpGaPAhYJ3sGmk6vplg0",
+          "name": "Love Yourself",
+          "albumOfTrack": {
+            "uri": "spotify:album:6Fr2rQkZ383FcMqFyT7yPr",
+            "name": "Purpose (Deluxe)",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02f46b9d202509a8f7384b90de",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851f46b9d202509a8f7384b90de",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273f46b9d202509a8f7384b90de",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+
+            "id": "6Fr2rQkZ383FcMqFyT7yPr",
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/album/6Fr2rQkZ383FcMqFyT7yPr?si=xiwMz7xlR6CmsHqZyuFBHg"
+            }
+          },
+
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:1uNFoZAHBGtllmzznpCI3s",
+                "profile": {
+                  "name": "Justin Bieber"
+                }
+              }
+            ]
+          },
+
+          "contentRating": {
+            "label": "NONE"
+          },
+
+          "duration": {
+            "totalMilliseconds": 233720
+          },
+
+          "playability": {
+            "playable": true
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:track:0QosomGFiJYOxj2ViZfqng",
+          "id": "0QosomGFiJYOxj2ViZfqng",
+          "name": "Selfish",
+          "albumOfTrack": {
+            "uri": "spotify:album:3G89Vbw7shdM38VCVsFdoy",
+            "name": "Selfish",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02da6090501a3b5467e6f715e6",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851da6090501a3b5467e6f715e6",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273da6090501a3b5467e6f715e6",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+
+            "id": "3G89Vbw7shdM38VCVsFdoy",
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/album/3G89Vbw7shdM38VCVsFdoy?si=9Hr2e1DATJGg99hgtSyMNA"
+            }
+          },
+
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:31TPClRtHm23RisEBtV3X7",
+                "profile": {
+                  "name": "Justin Timberlake"
+                }
+              }
+            ]
+          },
+
+          "contentRating": {
+            "label": "NONE"
+          },
+
+          "duration": {
+            "totalMilliseconds": 229331
+          },
+
+          "playability": {
+            "playable": true
+          }
+        }
+      }
+    ],
+
+    "pagingInfo": {
+      "nextOffset": 8,
+      "limit": 8
+    }
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "query": "duki",
+  "albums": {
+    "totalCount": 143,
+    "items": [
+      {
+        "data": {
+          "uri": "spotify:album:26nUVuonXEdbJTo9PeBYoR",
+          "name": "Antes de Ameri",
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:1bAftSH8umNcGZ0uyV7LMg",
+                "profile": {
+                  "name": "Duki"
+                }
+              }
+            ]
+          },
+
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02f74269b6ebdb5ab2773c0be9",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851f74269b6ebdb5ab2773c0be9",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273f74269b6ebdb5ab2773c0be9",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+
+          "date": {
+            "year": 2023
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:album:3manJutsZhzlnZe2xMWp7y",
+          "name": "NO SON KLLE",
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:4tm8CEdm4pkQsEh4jIr9Yp",
+                "profile": {
+                  "name": "Santa Fe Klan"
+                }
+              },
+              {
+                "uri": "spotify:artist:1bAftSH8umNcGZ0uyV7LMg",
+                "profile": {
+                  "name": "Duki"
+                }
+              },
+              {
+                "uri": "spotify:artist:12GqGscKJx3aE4t07u7eVZ",
+                "profile": {
+                  "name": "Peso Pluma"
+                }
+              }
+            ]
+          },
+
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02acc066bd17a5cbeb72d9da10",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851acc066bd17a5cbeb72d9da10",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273acc066bd17a5cbeb72d9da10",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+
+          "date": {
+            "year": 2024
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:album:3oeavlFnbsS7L17R8Irxyv",
+          "name": "Not So Dukish",
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:7lRFrrINQTY35g8hq0kXY5",
+                "profile": {
+                  "name": "Johnny Hodges"
+                }
+              }
+            ]
+          },
+
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e0298f7eb5d81ddb4042b2c8156",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000485198f7eb5d81ddb4042b2c8156",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b27398f7eb5d81ddb4042b2c8156",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+
+          "date": {
+            "year": 1958
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:album:3MKQjYpaES80tFP7Qo2zH0",
+          "name": "Desde el Fin del Mundo",
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:1bAftSH8umNcGZ0uyV7LMg",
+                "profile": {
+                  "name": "Duki"
+                }
+              }
+            ]
+          },
+
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02305240b65c28020de3aac8eb",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851305240b65c28020de3aac8eb",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273305240b65c28020de3aac8eb",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+
+          "date": {
+            "year": 2021
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:album:1QUr29IDxeCaCpZOqwyvHW",
+          "name": "Duki: Bzrp Music Sessions, Vol. 50",
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:716NhGYqD1jl2wI1Qkgq36",
+                "profile": {
+                  "name": "Bizarrap"
+                }
+              },
+              {
+                "uri": "spotify:artist:1bAftSH8umNcGZ0uyV7LMg",
+                "profile": {
+                  "name": "Duki"
+                }
+              }
+            ]
+          },
+
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e0293c4eec56cea95c9022ed28f",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000485193c4eec56cea95c9022ed28f",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b27393c4eec56cea95c9022ed28f",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+
+          "date": {
+            "year": 2022
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:album:262bymaji1sJPAldR7YyaH",
+          "name": "Marisola (Remix)",
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:1Yj5Xey7kTwvZla8sqdsdE",
+                "profile": {
+                  "name": "Cris Mj"
+                }
+              },
+              {
+                "uri": "spotify:artist:1bAftSH8umNcGZ0uyV7LMg",
+                "profile": {
+                  "name": "Duki"
+                }
+              },
+              {
+                "uri": "spotify:artist:2UZIAOlrnyZmyzt1nuXr9y",
+                "profile": {
+                  "name": "Nicki Nicole"
+                }
+              }
+            ]
+          },
+
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e0284abc8c6cf1e122113f7ab8b",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000485184abc8c6cf1e122113f7ab8b",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b27384abc8c6cf1e122113f7ab8b",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+
+          "date": {
+            "year": 2022
+          }
+        }
+      }
+    ],
+
+    "pagingInfo": {
+      "nextOffset": 6,
+      "limit": 6
+    }
+  }
+}

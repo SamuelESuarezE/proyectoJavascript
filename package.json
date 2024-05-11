@@ -1,0 +1,18 @@
+{
+  "name": "proyectojavascript",
+  "version": "1.0.0",
+  "description": "- **API** https://rapidapi.com/Glavier/api/spotify23 - **Figma:** https://www.figma.com/community/file/1178206974820059749",
+  "main": "./js/app.js",
+  "type": "module",
+  "scripts": {
+    "album": "json-server db/responseAlbums.json -p 5501",
+    "track": "json-server db/responseTracks.json -p 5502",
+    "unique": "json-server db/responseUniqueTrack.json -p 5503"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.23"
+  }
+}

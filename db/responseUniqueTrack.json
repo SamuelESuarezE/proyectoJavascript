@@ -1,0 +1,77 @@
+{
+  "query": "connor+price",
+  "tracks": {
+    "totalCount": 634,
+    "items": [
+      {
+        "data": {
+          "uri": "spotify:track:09VW2o6EHSWwzCdhW4ARU1",
+          "id": "09VW2o6EHSWwzCdhW4ARU1",
+          "name": "Trendsetter",
+          "albumOfTrack": {
+            "uri": "spotify:album:1Hxam85Bhf98cIkMRKX9QA",
+            "name": "Trendsetter",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02790fab52efbb2d55bddbd247",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851790fab52efbb2d55bddbd247",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273790fab52efbb2d55bddbd247",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+
+            "id": "1Hxam85Bhf98cIkMRKX9QA",
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/album/1Hxam85Bhf98cIkMRKX9QA?si=Fp2EBkW1R0a0xvTwHCGlTw"
+            }
+          },
+
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:5zixe6AbgXPqt4c1uSl94L",
+                "profile": {
+                  "name": "Connor Price"
+                }
+              },
+              {
+                "uri": "spotify:artist:3UROQ34SGxV7h71Z3Gqp8u",
+                "profile": {
+                  "name": "Haviah Mighty"
+                }
+              }
+            ]
+          },
+
+          "contentRating": {
+            "label": "NONE"
+          },
+
+          "duration": {
+            "totalMilliseconds": 142831
+          },
+
+          "playability": {
+            "playable": true
+          }
+        }
+      }
+    ],
+
+    "pagingInfo": {
+      "nextOffset": 1,
+      "limit": 1
+    }
+  }
+}
