@@ -7,7 +7,7 @@ export class SearchBar extends HTMLElement {
 
     render() {
         this.shadowRoot.innerHTML = /*html*/`
-            <link rel="stylesheet" href="./../../css/components/SearchBar.css">
+            <link rel="stylesheet" href="./js/components/SearchBar.css">
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
             <article class="searchFigure">
