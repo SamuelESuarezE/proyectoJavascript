@@ -83,45 +83,48 @@ async function allRandom() {
   let songRandom = generarRandom(6);
   let tracksRandom = generarRandom(6);
 
-  setTimeout(async function () {
-    let dataSong = await searchUniqueTrack(songRandom);
-    let currentTrackFrame = document.createElement("current-track-frame");
-    let currentTrackContainer = document.querySelector("#currentTrack");
+  let dataSong = await searchUniqueTrack(songRandom);
+  let currentTrackFrame = document.createElement("current-track-frame");
+  let currentTrackContainer = document.querySelector("#currentTrack");
   
-    currentTrackFrame.setAttribute("uri", dataSong);
-    currentTrackContainer.appendChild(currentTrackFrame);
-  }, 700)
+  currentTrackFrame.setAttribute("uri", dataSong);
+  currentTrackContainer.appendChild(currentTrackFrame);
 
-  setTimeout(async function() {
+
+
     let dataAlbums = await searchAlbums(albumsRandom);
     let albumContainer = document.querySelector(".albumContainer");
   
   
     for (let album in dataAlbums) {
       // Creo un nuevo componente de tipo music-card
-      let musicCard = document.createElement("music-card");
-      // Agrego el atributo uri al componente
-      musicCard.setAttribute("uri", dataAlbums[album]);
-      // Agrego el componente al html
-      albumContainer.appendChild(musicCard);
+      setTimeout(function() {
+        let musicCard = document.createElement("music-card");
+        // Agrego el atributo uri al componente
+        musicCard.setAttribute("uri", dataAlbums[album]);
+        // Agrego el componente al html
+        albumContainer.appendChild(musicCard);
+      }, 500)
+
     }
-  }, 700)
 
 
-  setTimeout(async function() {
+
+
     let dataTracks = await searchTracks(tracksRandom);
     let tracksContainer = document.querySelector(".tracksContainer");
   
   
     for (let track in dataTracks) {
-      // Creo un nuevo componente de tipo music-card
-      let musicCard = document.createElement("music-card");
-      // Agrego el atributo uri al componente
-      musicCard.setAttribute("uri", dataTracks[track]);
-      // Agrego el componente al html
-      tracksContainer.appendChild(musicCard);
+      setTimeout(function() {
+        // Creo un nuevo componente de tipo music-card
+        let musicCard = document.createElement("music-card");
+        // Agrego el atributo uri al componente
+        musicCard.setAttribute("uri", dataTracks[track]);
+        // Agrego el componente al html
+        tracksContainer.appendChild(musicCard);
+      }, 500)
     }
-  }, 700)
 
 }
 
