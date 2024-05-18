@@ -85,7 +85,7 @@ async function allRandom() {
 
 
   let dataSong = await searchUniqueTrack(songRandom);
-  let currentTrackFrame = document.querySelector("current-track-frame");
+  let currentTrackFrame = document.createElement("current-track-frame");
   let currentTrackContainer = document.querySelector("#currentTrack");
 
   currentTrackFrame.setAttribute("uri", dataSong);
@@ -94,7 +94,7 @@ async function allRandom() {
 
   let dataAlbums = await searchAlbums(albumsRandom);
   let albumContainer = document.querySelector(".albumContainer");
-  albumContainer.innerHTML = "";
+
 
   for (let album in dataAlbums) {
     // Creo un nuevo componente de tipo music-card
@@ -107,7 +107,7 @@ async function allRandom() {
 
   let dataTracks = await searchTracks(tracksRandom);
   let tracksContainer = document.querySelector(".tracksContainer");
-  tracksContainer.innerHTML = "";
+
 
   for (let track in dataTracks) {
     // Creo un nuevo componente de tipo music-card
