@@ -78,3 +78,57 @@ searchBars[1].shadowRoot.children[2].children[1].addEventListener(
 );
 
 
+async function allRandom() {
+  let albumsRandom = generarRandom(6);
+  let songRandom = generarRandom(6);
+  let tracksRandom = generarRandom(6);
+
+
+  let dataSong = await searchUniqueTrack(songRandom);
+  let currentTrackFrame = document.querySelector("current-track-frame");
+  let currentTrackContainer = document.querySelector("#currentTrack");
+
+  currentTrackFrame.setAttribute("uri", dataSong);
+  currentTrackContainer.appendChild(currentTrackFrame);
+
+
+  let dataAlbums = await searchAlbums(albumsRandom);
+  let albumContainer = document.querySelector(".albumContainer");
+  albumContainer.innerHTML = "";
+
+  for (let album in dataAlbums) {
+    // Creo un nuevo componente de tipo music-card
+    let musicCard = document.createElement("music-card");
+    // Agrego el atributo uri al componente
+    musicCard.setAttribute("uri", dataAlbums[album]);
+    // Agrego el componente al html
+    albumContainer.appendChild(musicCard);
+  }
+
+  let dataTracks = await searchTracks(tracksRandom);
+  let tracksContainer = document.querySelector(".tracksContainer");
+  tracksContainer.innerHTML = "";
+
+  for (let track in dataTracks) {
+    // Creo un nuevo componente de tipo music-card
+    let musicCard = document.createElement("music-card");
+    // Agrego el atributo uri al componente
+    musicCard.setAttribute("uri", dataTracks[track]);
+    // Agrego el componente al html
+    tracksContainer.appendChild(musicCard);
+  }
+}
+
+function generarRandom(num) {
+  const characters =
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+  const charactersLength = characters.length;
+  let result = "";
+  for (let i = 0; i < num; i++) {
+    result += characters.charAt(Math.floor(Math.random() * charactersLength));
+  }
+
+  return result;
+}
+
+allRandom()
