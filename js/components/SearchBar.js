@@ -54,7 +54,7 @@ export class SearchBar extends HTMLElement {
 
             <article class="searchFigure">
                 <i class="bi bi-search"></i>
-                <input class="searchBar" type="text" name="..." id="..." placeholder="What do you want to play?">
+                <input class="searchBar" type="text" enterkeyhint="done" name="..." id="..." placeholder="What do you want to play?">
             </article>
         `;
     }
