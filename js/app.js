@@ -17,7 +17,7 @@ const searchBars = document.querySelectorAll("search-bar");
 searchBars[0].shadowRoot.children[2].children[1].addEventListener(
   "keyup",
   async function (e) {
-    if (e.key === "Enter") {
+    if (e.keyCode===13) {
       // Value dentro del input
       let query = e.target.value;
       // Funcion que recibe el query y consulta la search en el api, devuelve un array de uris de albumes
@@ -40,7 +40,7 @@ searchBars[0].shadowRoot.children[2].children[1].addEventListener(
 searchBars[2].shadowRoot.children[2].children[1].addEventListener(
     "keyup",
     async function (e) {
-      if (e.key === "Enter") {
+      if (e.keyCode===13) {
         // Value dentro del input
         let query = e.target.value;
         // Funcion que recibe el query y consulta la search en el api, devuelve un array de uris de albumes
@@ -64,7 +64,7 @@ searchBars[2].shadowRoot.children[2].children[1].addEventListener(
 searchBars[1].shadowRoot.children[2].children[1].addEventListener(
   "keyup",
   async function (e) {
-    if (e.key === "Enter") {
+    if (e.keyCode===13) {
       let query = e.target.value;
       let dataSong = await searchUniqueTrack(query);
       let currentTrackFrame = document.querySelector("current-track-frame");
