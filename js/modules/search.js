@@ -4,7 +4,7 @@ export const searchUniqueTrack = async(query) => {
     let options = {
         method: 'GET',
         headers: {
-            'x-rapidapi-key': 'ea6cd4dd0bmsh8413380809d711bp1b1736jsn8db2d953d8ab',
+            'x-rapidapi-key': '0637539965msha33cc2d432a2953p14c335jsn01c88628163e',
             'x-rapidapi-host': 'spotify23.p.rapidapi.com',
             'Content-Type': 'application/json'
         }
@@ -25,7 +25,7 @@ export const searchTracks = async(query) => {
     const options = {
         method: 'GET',
         headers: {
-            'x-rapidapi-key': 'ea6cd4dd0bmsh8413380809d711bp1b1736jsn8db2d953d8ab',
+            'x-rapidapi-key': '0637539965msha33cc2d432a2953p14c335jsn01c88628163e',
             'x-rapidapi-host': 'spotify23.p.rapidapi.com',
             'Content-Type': 'application/json'
         }
@@ -52,7 +52,7 @@ export const searchAlbums = async(query) => {
     const options = {
         method: 'GET',
         headers: {
-            'x-rapidapi-key': 'ea6cd4dd0bmsh8413380809d711bp1b1736jsn8db2d953d8ab',
+            'x-rapidapi-key': '0637539965msha33cc2d432a2953p14c335jsn01c88628163e',
             'x-rapidapi-host': 'spotify23.p.rapidapi.com',
             'Content-Type': 'application/json'
         }
